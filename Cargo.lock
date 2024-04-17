@@ -40,6 +40,17 @@ name = "rust_wbc"
 version = "0.3.0"
 dependencies = [
  "rust_keien",
+ "rust_wek",
+ "sort_rust",
+]
+
+[[package]]
+name = "rust_wek"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0f688098108acf24b32bf2d99cd80413c3b78cc7ccd4ad41e22d6a7b063b338a"
+dependencies = [
+ "rust_keien",
  "sort_rust",
 ]
 
