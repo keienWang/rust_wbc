@@ -91,6 +91,7 @@ pub(crate) fn utf8_decode(bytes: &[u8]) -> Option<Result<char, u8>> {
         }
     }
 
+    
     if bytes.is_empty() {
         return None;
     }
